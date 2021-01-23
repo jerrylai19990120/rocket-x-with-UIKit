@@ -13,10 +13,11 @@
 		92B91B8025BBB673003D0B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B91B7E25BBB673003D0B21 /* Main.storyboard */; };
 		92B91B8225BBB675003D0B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B91B8125BBB675003D0B21 /* Assets.xcassets */; };
 		92B91B8525BBB675003D0B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B91B8325BBB675003D0B21 /* LaunchScreen.storyboard */; };
+		92B91B8D25BBB6E8003D0B21 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 92B91B8C25BBB6E8003D0B21 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		92B91B7525BBB673003D0B21 /* hustle-mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hustle-mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B91B7525BBB673003D0B21 /* Rocket X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rocket X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B91B7825BBB673003D0B21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92B91B7A25BBB673003D0B21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		92B91B7C25BBB673003D0B21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		92B91B8125BBB675003D0B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92B91B8425BBB675003D0B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92B91B8625BBB675003D0B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B91B8C25BBB6E8003D0B21 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		92B91B7625BBB673003D0B21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92B91B7525BBB673003D0B21 /* hustle-mode.app */,
+				92B91B7525BBB673003D0B21 /* Rocket X.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +58,7 @@
 		92B91B7725BBB673003D0B21 /* hustle-mode */ = {
 			isa = PBXGroup;
 			children = (
+				92B91B8C25BBB6E8003D0B21 /* hustle-on.wav */,
 				92B91B7825BBB673003D0B21 /* AppDelegate.swift */,
 				92B91B7A25BBB673003D0B21 /* SceneDelegate.swift */,
 				92B91B7C25BBB673003D0B21 /* ViewController.swift */,
@@ -84,7 +87,7 @@
 			);
 			name = "hustle-mode";
 			productName = "hustle-mode";
-			productReference = 92B91B7525BBB673003D0B21 /* hustle-mode.app */;
+			productReference = 92B91B7525BBB673003D0B21 /* Rocket X.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B91B8D25BBB6E8003D0B21 /* hustle-on.wav in Resources */,
 				92B91B8525BBB675003D0B21 /* LaunchScreen.storyboard in Resources */,
 				92B91B8225BBB675003D0B21 /* Assets.xcassets in Resources */,
 				92B91B8025BBB673003D0B21 /* Main.storyboard in Resources */,
@@ -292,7 +296,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.hustle-mode";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Rocket X";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +314,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.hustle-mode";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Rocket X";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
